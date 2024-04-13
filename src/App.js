@@ -3,6 +3,7 @@ import './App.css';
 import Frag1 from './Basic/Fragment/Fragment-1';
 import Frag2 from './Basic/Fragment/Fragment-2';
 import Frag3 from './Basic/Fragment/Fragment-3';
+import Frag4 from './Basic/Fragment/Fragment-4';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Frag1 />
       <Frag2 />
       <Frag3 />
+      <Frag4/>
     </>
   )
 }
