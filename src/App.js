@@ -1,7 +1,12 @@
+import React from 'react';
 import './App.css';
+import Frag1 from './Basic/Fragment/Fragment-1';
+
 function App() {
   return (
-    <h1>Hello world</h1>
+    <>
+      <Frag1 />
+    </>
   )
 }
 
