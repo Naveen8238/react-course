@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import WithoutJSX from './Basic/JSX/WithoutJSX';
-import WithJSX from './Basic/JSX/WithJSX';
+import FunctionalComponent from './Basic/Components/Functional';
+import ClassComponent from './Basic/Components/Class';
+
 
 function App() {
   return (
     <>
-     <WithoutJSX/>
-     <WithJSX/>
+    <FunctionalComponent/>
+    <ClassComponent/>
     </>
   )
 }
