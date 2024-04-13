@@ -1,17 +1,13 @@
 import React from 'react';
 import './App.css';
-import Frag1 from './Basic/Fragment/Fragment-1';
-import Frag2 from './Basic/Fragment/Fragment-2';
-import Frag3 from './Basic/Fragment/Fragment-3';
-import Frag4 from './Basic/Fragment/Fragment-4';
+import WithoutJSX from './Basic/JSX/WithoutJSX';
+import WithJSX from './Basic/JSX/WithJSX';
 
 function App() {
   return (
     <>
-      <Frag1 />
-      <Frag2 />
-      <Frag3 />
-      <Frag4/>
+     <WithoutJSX/>
+     <WithJSX/>
     </>
   )
 }
